@@ -2,9 +2,9 @@
 
 ## Data Description as A Graph
 
-`Node`: index (e.g., v_i=1), hydrological data are represented as node features. 
+`Node`: junction (e.g., v_i=1), hydrological data are represented as node features. 
 
-`Edge`: connectivity of nodes (e.g., <v_i, v_j>), material, slope, and other static edge features. 
+`Edge`: conduit (e.g., <v_i, v_j>), material, slope, and other static edge features. 
 
 
 ## Files and Field Descriptions
