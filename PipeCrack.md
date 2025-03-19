@@ -31,21 +31,10 @@
   - link to code : https://github.com/Dharmareddy8520/PipeCrack_tfod
 
   - Image detection example (insert image examples):
-    example 1: actual image :
-    ![alt text](004557_2.jpg)
-    predicted image :
-    ![alt text](image-1.png)
-
-            Example 2: actual image :
-
-        ![alt text](<Screenshot 2025-02-01 133017.png>)
-        predicted image :
-
-    ![alt text](<Screenshot 2025-02-01 132959.png>)
+  - input image and detected images are uploaded in images folder 
 
   - Video detection example (insert video examples)
-    <video controls src="2025-02-11 00-59-43.mkv" title="Title"></video>
-    <video controls src="2025-03-19 04-31-59.mkv" title="Title"></video>
+    video are too long i will share one drive link of input and detected video :  https://tamucc-my.sharepoint.com/:f:/g/personal/dpandem_islander_tamucc_edu/Erw2UbhCag1JirVsv3SMtyUBe1zJ3AN3Qn_z04Wuf7UV1w?e=6BBYky
 
 - PyTorch
 
