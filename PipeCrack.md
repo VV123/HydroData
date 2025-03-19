@@ -31,10 +31,11 @@
   - link to code : https://github.com/Dharmareddy8520/PipeCrack_tfod
 
   - Image detection example (insert image examples):
-  - input image and detected images are uploaded in images folder 
+  - input image and detected images are uploaded in images/tfod folder 
 
   - Video detection example (insert video examples)
-    video are too long i will share one drive link of input and detected video :  https://tamucc-my.sharepoint.com/:f:/g/personal/dpandem_islander_tamucc_edu/Erw2UbhCag1JirVsv3SMtyUBe1zJ3AN3Qn_z04Wuf7UV1w?e=6BBYky
+    video are too long i will share one drive link of input and detected video :
+    https://tamucc-my.sharepoint.com/:f:/r/personal/dpandem_islander_tamucc_edu/Documents/Project1/Dataset/ouput_video_detection?csf=1&web=1&e=om4di2
 
 - PyTorch
 
@@ -47,5 +48,8 @@
   - link to code : https://github.com/Dharmareddy8520/yolo_pipecracks
 
   - Image detection example (insert image examples)
+  - input image and detected images are uploaded in images/yolo folder
+  - 
+  - Video detection example (insert video examples) :
+  - https://tamucc-my.sharepoint.com/:f:/r/personal/dpandem_islander_tamucc_edu/Documents/Project1/Dataset/ouput_video_detection?csf=1&web=1&e=om4di2
 
-  - Video detection example (insert video examples)
