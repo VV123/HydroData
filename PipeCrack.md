@@ -2,9 +2,15 @@
 
 ## Dataset
 
-- Data source : collected data from different sources (google,unsplash) most of the data is from kaggle ('https://www.kaggle.com/datasets/simplexitypipeline/pipeline-defect-dataset')
+The PipeCrack Dataset comprises images collected and annotated for training object detection models to identify pipeline defects.
 
-- Annotation Method : Manually annotated some images using labelimg ('https://github.com/HumanSignal/labelImg') sample images and label pic is inside images folder .
+- Data source :
+  Google Images: General pipeline defect images sourced via Google search.
+  Unsplash: High-quality, royalty-free pipeline-related images
+  Kaggle Pipeline Defect Dataset :most of the data is from kaggle ('https://www.kaggle.com/datasets/simplexitypipeline/pipeline-defect-dataset')
+
+- Annotation Method :
+  annotated some images using labelimg ('https://github.com/HumanSignal/labelImg') used to make custom labels sample images and label pic is inside images folder .
   Formats: XML for TensorFlow, TXT for YOLO; some pre-annotated data from Kaggle.
 
 - Labels (Six classes)
@@ -22,11 +28,12 @@
   - Model: SSD MobileNet V2 FPNLite 320x320, fine-tuned using the TensorFlow Object Detection API for detecting pipe cracks.
 
   - How to deploy :
-    I provided notebook file run all the cells as mentioned but these are the basic things need to know
-    Install TensorFlow 2.x and dependencies via pip install -r requirements.txt.
-    Clone the TensorFlow models repository:git clone https://github.com/tensorflow/models.git Tensorflow/models
-    wget http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz
-    Load the fine-tuned model from Tensorflow/workspace/models/my_ssd_mobnet/export/saved_model and run inference using the provided script.
+    I provided notebook file run all the cells just overview is described here
+    Setup Environment:pip install -r requirements.txt
+    Clone TensorFlow Models:git clone https://github.com/tensorflow/models.git Tensorflow/models
+    Download Pre-trained Model:wget http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz tar -xvf ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz
+    Train the model
+    Convert to TensorFlow.js:tensorflowjs_converter --input_format=tf_saved_model --output_format=tfjs_graph_model path/to/saved_model/ path/to/tfjs_model/
     after making the model convert it into tfjs to deploy web based application in vercel (globally accessable)
     link :https://tfod-ddobixoxo-dharmareddy8520s-projects.vercel.app/
 
