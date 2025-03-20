@@ -4,9 +4,10 @@
 
 - Data source : collected data from different sources (google,unsplash) most of the data is from kaggle ('https://www.kaggle.com/datasets/simplexitypipeline/pipeline-defect-dataset')
 
-- Annotation Method : Manually annotated some images and some of them are already annotated from kaggle dataset itself
+- Annotation Method : Manually annotated some images using labelimg ('https://github.com/HumanSignal/labelImg') sample images and label pic is inside images folder .
+  Formats: XML for TensorFlow, TXT for YOLO; some pre-annotated data from Kaggle.
 
-- Labels
+- Labels (Six classes)
   0:Deformation
   1: Obstacle
   2: Rupture
@@ -21,6 +22,7 @@
   - Model: SSD MobileNet V2 FPNLite 320x320, fine-tuned using the TensorFlow Object Detection API for detecting pipe cracks.
 
   - How to deploy :
+    I provided notebook file run all the cells as mentioned but these are the basic things need to know
     Install TensorFlow 2.x and dependencies via pip install -r requirements.txt.
     Clone the TensorFlow models repository:git clone https://github.com/tensorflow/models.git Tensorflow/models
     wget http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8.tar.gz
@@ -31,7 +33,7 @@
   - link to code : https://github.com/Dharmareddy8520/PipeCrack_tfod
 
   - Image detection example (insert image examples):
-  - input image and detected images are uploaded in images/tfod folder 
+  - input image and detected images are uploaded in images/tfod folder
 
   - Video detection example (insert video examples)
     video are too long i will share one drive link of input and detected video :
@@ -49,7 +51,6 @@
 
   - Image detection example (insert image examples)
   - input image and detected images are uploaded in images/yolo folder
-  - 
+  -
   - Video detection example (insert video examples) :
   - https://tamucc-my.sharepoint.com/:f:/r/personal/dpandem_islander_tamucc_edu/Documents/Project1/Dataset/ouput_video_detection?csf=1&web=1&e=om4di2
-

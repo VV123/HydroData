@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>004557_2.jpg</filename>
+  <path>E:/Pipeline_Defect\images/images/train\004557_2.jpg</path>
+  <size>
+    <width>720</width>
+    <height>576</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Rupture</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>327</xmin>
+      <ymin>127</ymin>
+      <xmax>619</xmax>
+      <ymax>228</ymax>
+    </bndbox>
+  </object>
+</annotation>
